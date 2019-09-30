@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript" charset="utf-8"></script> 
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+    <script src="script.js"></script>
+    <link rel = "stylesheet" type="text/css" href = "style.css">
+</head>
+<body>
+
+    <div id="welcome">
+        <h1 style="margin-top: 35px">Tic-Tac-Toe</h1>
+    </div>
+    <table id = "dashboard" class = "hidden" class = "center" style="margin-top: 80px">
+        <tr>
+            <td id = "00"></td>
+            <td id = "01"></td>
+            <td id = "02"></td>
+        </tr>
+        <tr>
+            <td id = "10"></td>
+            <td id = "11"></td>
+            <td id = "12"></td>
+        </tr>
+        <tr>
+            <td id = "20"></td>
+            <td id = "21"></td>
+            <td id = "22"></td>
+        </tr>
+    </table>
+    <div id="final-screen" class = "hidden">
+        <div id = "winner">
+        </div>
+        <br>
+    </div>
+    <div id = "again" style="margin-top: 80px">           
+            <button class = "button1" type = "submit" onclick="window.location.reload()">Play Again</button>
+    </div>
+</body>
+</html>
